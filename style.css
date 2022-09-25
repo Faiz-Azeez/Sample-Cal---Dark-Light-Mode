@@ -1,0 +1,161 @@
+
+body{
+    margin: 0;
+}
+
+#main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #87bff4;
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+
+}
+
+#main-bodyDk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #87bff4;
+    background-color: black;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.main-container{
+  
+    width: 350px;
+   max-height: 100%;
+    padding-bottom: 30px;
+    justify-content: center;
+    background-color: #242424;
+    background-image: url(https://i.picsum.photos/id/596/536/354.jpg?hmac=mrHoLj2x4av0RJ93lg0kNG0s70jSgzr1bR6rX4YnuMQ);
+    border-radius: 20px;
+    border-top: 0.1px solid white;
+    border-right: 0.2px solid white;
+    box-shadow: -6px 5px 8px 1px #242424
+    
+    
+
+}  
+
+/* 
+
+.img-container {
+    height: 400px;
+    width: 400px;
+    background-image: url("https://i.picsum.photos/id/596/536/354.jpg?hmac=mrHoLj2x4av0RJ93lg0kNG0s70jSgzr1bR6rX4YnuMQ");
+  }
+   */
+
+ .output{
+    
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#screen{
+
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.773);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.8px);
+-webkit-backdrop-filter: blur(7.8px);
+border: 1px solid rgba(255, 255, 255, 0.63);
+
+
+    padding:50px 0px 50px 25px;
+    /* background-color: transparent; */
+    border-radius: 20px;
+    pointer-events: none;
+    border: none;
+    font-size: 25px;
+
+}
+
+.row, .btn  {
+    background-color: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly
+    
+    
+}
+
+.btn{
+    backdrop-filter: blur(7.8px);
+-webkit-backdrop-filter: blur(7.8px);
+background-color: aliceblue;
+width: 65px;
+border-radius: 5px;
+border: 1px solid #0779e3;
+box-shadow: -1px 2px 1px 1px #0779e3
+
+
+}
+
+#specalchar:hover{
+    color: red;
+    font-weight: 700;
+
+}
+
+.btn:hover{
+    color: #0779e3;
+    background-color: transparent;
+}
+
+.buttons{
+    margin-top: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+.clear{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.clear p{
+    margin-right: 142px;
+}
+
+
+
+
+
+
+  .img-container {
+    width: 350px;
+   max-height: 100%;
+    padding-bottom: 30px;
+    justify-content: center;
+    background-color: #242424;
+    background-image: url(2.jpg)  ;
+    background-size: cover;
+
+
+    border-radius: 20px;
+    border-top: 0.1px solid white;
+    border-right: 0.2px solid white;
+    box-shadow: -6px 5px 8px 1px #242424
+    
+}
+
+
+

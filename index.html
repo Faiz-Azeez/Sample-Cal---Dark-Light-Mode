@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+  <div id="main-body">
+        
+    
+    
+                <div class="img-container">
+                
+                    <!-- <button class="change-btn">fai</button> -->
+                
+    
+    
+                <div class="output"> 
+                    <input type="text" id="screen">  
+                </div>
+    
+                <div class="buttons" >
+    
+                    <div class="clear">
+    
+                        
+                        
+
+                         <div   class="form-check form-switch" style="padding-right: 195px; padding-left: 50px;">
+                        <input id="change-btn" class="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label  class="form-check-label" for="flexSwitchCheckDefault"></label> 
+    
+                        
+
+                    </div> 
+                        
+    
+    
+    
+    
+                    <button onclick="clearDisplay()" class="btn">CLR</button>
+                    </div>
+    
+                    <div class="row">
+                        <button onclick="buttonclick(7)"  class="btn">7</button>
+                        <button onclick="buttonclick(8)" class="btn">8</button>
+                        <button onclick="buttonclick(9)" class="btn">9</button>
+                        <button onclick="buttonclick('/')" id="specalchar" class="btn">/</button>
+    
+                        
+                    </div>
+    
+                    <div class="row">
+                        <button onclick="buttonclick(4)" class="btn">4</button>
+                        <button onclick="buttonclick(5)" class="btn">5</button>
+                        <button onclick="buttonclick(6)" class="btn">6</button>
+                        <button onclick="buttonclick('*')" id="specalchar" class="btn">X</button>
+    
+                    </div>
+    
+                    <div class="row">
+                        <button onclick="buttonclick(1)" class="btn">1</button>
+                        <button onclick="buttonclick(2)" class="btn">2</button>
+                        <button onclick="buttonclick(3)" class="btn">2</button>
+                        <button onclick="buttonclick('-')" id="specalchar" class="btn">-</button>
+    
+                    </div>
+    
+                    <div class="row">
+                        <button onclick="buttonclick('.')" class="btn">.</button>
+                        <button onclick="buttonclick(0)" class="btn">0</button>
+                        <button onclick="buttonclick('+')" class="btn">+</button>
+                        <button onclick="equalClick()" id="specalchar" class="btn">=</button>
+    
+                    </div>
+    
+    
+    
+                </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            </div>
+    
+        </div>
+    
+
+
+
+
+
+
+<script src="calc.js"></script>
+
+
+
+  
+
+
+</body>
+</html>
